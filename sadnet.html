@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang=zh_CN>
+<head>
+    <meta charset=utf-8>
+    <title>pwaontheway-袁仙女</title>
+    <meta http-equiv=X-UA-Compatible content="IE=edge">
+    <meta name=viewport content="width=device-width,initial-scale=1">
+    <link rel=manifest href=/static/manifest.json>
+    <meta name=theme-color content=#2874f0>
+    <meta name=apple-mobile-web-app-capable content=yes>
+    <meta name=apple-mobile-web-app-status-bar-style content=black>
+    <meta name=apple-mobile-web-app-title content=pwaontheway>
+    <link rel=apple-touch-icon href=/static/img/icons/apple-touch-icon-152x152.png>
+    <meta name=msapplication-TileImage content=/static/img/icons/msapplication-icon-144x144.png>
+    <meta name=msapplication-TileColor content=#000000>
+    <!--<link rel=preload href=/static/js/manifest.a7fbc2d7528f20143115.js as=script>-->
+    <!--<link rel=preload href=/static/js/vue.29c61e673aba1c95fca6.js as=script>-->
+    <!--<link rel=preload href=/static/js/vendor.9943a6fb7abc2d2dbbb6.js as=script>-->
+    <!--<link rel=preload href=/static/js/app.93c137ed9541f0009f4f.js as=script>-->
+    <!--<link rel=preload href=/static/css/app.6c86e105eea005b29ab02aaf83d3f8af.css as=style>-->
+    <style>/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+    html {
+        line-height: 1.15;
+        -ms-text-size-adjust: 100%;
+        -webkit-text-size-adjust: 100%
+    }
+
+    body {
+        margin: 0
+    }
+
+    article, aside, footer, header, nav, section {
+        display: block
+    }
+
+    h1 {
+        font-size: 2em;
+        margin: .67em 0
+    }
+
+    figcaption, figure, main {
+        display: block
+    }
+
+    figure {
+        margin: 1em 40px
+    }
+
+    hr {
+        box-sizing: content-box;
+        height: 0;
+        overflow: visible
+    }
+
+    pre {
+        font-family: monospace, monospace;
+        font-size: 1em
+    }
+
+    a {
+        background-color: transparent;
+        -webkit-text-decoration-skip: objects
+    }
+
+    abbr[title] {
+        border-bottom: none;
+        text-decoration: underline;
+        text-decoration: underline dotted
+    }
+
+    b, strong {
+        font-weight: inherit;
+        font-weight: bolder
+    }
+
+    code, kbd, samp {
+        font-family: monospace, monospace;
+        font-size: 1em
+    }
+
+    dfn {
+        font-style: italic
+    }
+
+    mark {
+        background-color: #ff0;
+        color: #000
+    }
+
+    small {
+        font-size: 80%
+    }
+
+    sub, sup {
+        font-size: 75%;
+        line-height: 0;
+        position: relative;
+        vertical-align: baseline
+    }
+
+    sub {
+        bottom: -.25em
+    }
+
+    sup {
+        top: -.5em
+    }
+
+    audio, video {
+        display: inline-block
+    }
+
+    audio:not([controls]) {
+        display: none;
+        height: 0
+    }
+
+    img {
+        border-style: none
+    }
+
+    svg:not(:root) {
+        overflow: hidden
+    }
+
+    button, input, optgroup, select, textarea {
+        font-family: sans-serif;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0
+    }
+
+    button, input {
+        overflow: visible
+    }
+
+    button, select {
+        text-transform: none
+    }
+
+    [type=reset], [type=submit], button, html [type=button] {
+        -webkit-appearance: button
+    }
+
+    [type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+        border-style: none;
+        padding: 0
+    }
+
+    [type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
+        outline: 1px dotted ButtonText
+    }
+
+    fieldset {
+        padding: .35em .75em .625em
+    }
+
+    legend {
+        box-sizing: border-box;
+        color: inherit;
+        display: table;
+        max-width: 100%;
+        padding: 0;
+        white-space: normal
+    }
+
+    progress {
+        display: inline-block;
+        vertical-align: baseline
+    }
+
+    textarea {
+        overflow: auto
+    }
+
+    [type=checkbox], [type=radio] {
+        box-sizing: border-box;
+        padding: 0
+    }
+
+    [type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+        height: auto
+    }
+
+    [type=search] {
+        -webkit-appearance: textfield;
+        outline-offset: -2px
+    }
+
+    [type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+        -webkit-appearance: none
+    }
+
+    ::-webkit-file-upload-button {
+        -webkit-appearance: button;
+        font: inherit
+    }
+
+    details, menu {
+        display: block
+    }
+
+    summary {
+        display: list-item
+    }
+
+    canvas {
+        display: inline-block
+    }
+
+    [hidden], template {
+        display: none
+    }
+
+    .skeleton-wrapper .skeleton-header[data-v-17520d1a] {
+        height: 52px;
+        background: #2874f0;
+        box-shadow: 0 2px 4px -1px rgba(0, 0, 0, .2), 0 4px 5px rgba(0, 0, 0, .14), 0 1px 10px rgba(0, 0, 0, .12)
+    }
+
+    .skeleton-wrapper .skeleton-block[data-v-17520d1a] {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        padding-top: 8px
+    }</style>
+    <script>
+        (function (designWidth) {
+            'use strict';
+            var docEl = document.documentElement;
+            var dpr = Math.min(Math.floor(window.devicePixelRatio), 3);
+            var scale = 1 / dpr;
+
+            var $viewport = document.querySelector('meta[name="viewport"]');
+            var content = 'initial-scale=' + scale + ',maximum-scale=' + scale + ',minimum-scale=' + scale + ',user-scalable=no,width=device-width';
+
+            if ($viewport) {
+                $viewport.setAttribute('content', content);
+            } else {
+                var metaViewport = '<meta name="viewport" content="' + content + '"/>';
+                document.write(metaViewport);
+            }
+
+            var setFontsize = function () {
+                var width = docEl.clientWidth;
+                if (width / dpr > 450) {
+                    width = dpr * 450;
+                }
+
+                var fontSize = width / designWidth * 100;
+                docEl.style.fontSize = fontSize + 'px';
+                console.log('font-size: ', fontSize);
+            };
+
+            setFontsize();
+            window.addEventListener('resize', setFontsize());
+        })(750);
+    </script>
+    <link rel="shortcut icon" href=/favicon.ico>
+</head>
+<body>
+<div id=app>
+    <h1>遇到运营商劫持APP 频繁弹广告怎么办？</h1>
+    <p>亲爱的美团旅行商家APP用户：</p>
+    <p>近期有个别客户会出现弹窗广告或网页错乱，我们调查发现，是您当地宽带/手机网络供应商所致。建议大家使用以下方法进行投诉和保护自己的正当利益。</p>
+    <p>
+        <strong>1、啥是运营商劫持？</strong>
+        先别蒙圈。当您在使用美团旅行商家APP时，网站弹出了一些很明显与您所浏览内容无关的广告或网页错乱时，可能您的网络已经被运营商所劫持了。
+    </p>
+    <p>如下图：</p>
+    <div>
+        <img src="./static/img/jiechi.png" style="border:1px solid #ededed;" alt="遇到运营商劫持APP&nbsp;频繁弹广告怎么办？">
+    </div>
+    <p>
+        <strong>1、怎么投诉？</strong>
+    </p>
+    <p>如果确认是被运营商做了劫持，点击下面的链接投诉。</p>
+    <p>
+        <strong><span style="color:red;">工信部网站投诉地址 </span></strong>
+        <a href="http://www.chinatcc.gov.cn:8080/cms/shensus/" target="_blank">http://www.chinatcc.gov.cn:8080/cms/shensus/</a>
+    </p>
+    <p>申诉内容模板</p>
+    <p>
+        本人在使用×省×市运营商宽带上网浏览美团商家旅行APP时发现（页面不能正常访问/页面内容没有更新/弹出广告），该运营商的劫持行为侵犯了本人和美团旅行商家APP的正当权益，现要求运营商尽快处理，停止劫持行为。
+    </p>
+</div>
+
+</body>
+</html>
