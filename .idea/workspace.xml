@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abe8e93b-5e45-45a6-9f84-036c07083eb5" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/echarts.custom.min.js" afterPath="$PROJECT_DIR$/echarts.custom.min.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -33,7 +34,7 @@
       <file leaf-file-name="sadnet.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sadnet.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
+            <state relative-caret-position="4410">
               <caret line="294" column="49" lean-forward="false" selection-start-line="294" selection-start-column="49" selection-end-line="294" selection-end-column="49" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -47,8 +48,8 @@
       <file leaf-file-name="echarts.custom.min.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/echarts.custom.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="0" column="308725" lean-forward="false" selection-start-line="0" selection-start-column="308725" selection-end-line="0" selection-end-column="308725" />
+            <state relative-caret-position="326">
+              <caret line="0" column="286512" lean-forward="false" selection-start-line="0" selection-start-column="286512" selection-end-line="0" selection-end-column="286512" />
               <folding />
             </state>
           </provider>
@@ -57,7 +58,7 @@
       <file leaf-file-name="echarts.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echarts.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-197">
+            <state relative-caret-position="15">
               <caret line="9" column="26229" lean-forward="false" selection-start-line="9" selection-start-column="26218" selection-end-line="9" selection-end-column="26229" />
               <folding />
             </state>
@@ -91,7 +92,7 @@
       <file leaf-file-name="sw.tmpl.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/sw.tmpl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2475">
+            <state relative-caret-position="2385">
               <caret line="165" column="14" lean-forward="false" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="14" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -190,8 +191,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -206,6 +205,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -309,12 +310,13 @@
       <workItem from="1512290423395" duration="29000" />
       <workItem from="1513395201805" duration="2476000" />
       <workItem from="1523014288266" duration="1210000" />
-      <workItem from="1523016935073" duration="2309000" />
+      <workItem from="1523016935073" duration="2994000" />
+      <workItem from="1523156375015" duration="591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="20580000" />
+    <option name="totallyTimeSpent" value="21856000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -619,6 +621,38 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="108" lean-forward="false" selection-start-line="0" selection-start-column="108" selection-end-line="0" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/img/jiechi.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sadnet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4410">
+          <caret line="294" column="49" lean-forward="false" selection-start-line="294" selection-start-column="49" selection-end-line="294" selection-end-column="49" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#p#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/Detail.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -637,7 +671,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/sw.tmpl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2475">
+        <state relative-caret-position="2385">
           <caret line="165" column="14" lean-forward="false" selection-start-line="165" selection-start-column="8" selection-end-line="165" selection-end-column="14" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
@@ -660,42 +694,9 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/Detail.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="735">
-          <caret line="49" column="23" lean-forward="false" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/img/jiechi.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sadnet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="294" column="49" lean-forward="false" selection-start-line="294" selection-start-column="49" selection-end-line="294" selection-end-column="49" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/echarts.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-197">
+        <state relative-caret-position="15">
           <caret line="9" column="26229" lean-forward="false" selection-start-line="9" selection-start-column="26218" selection-end-line="9" selection-end-column="26229" />
           <folding />
         </state>
@@ -703,8 +704,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/echarts.custom.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="0" column="308725" lean-forward="false" selection-start-line="0" selection-start-column="308725" selection-end-line="0" selection-end-column="308725" />
+        <state relative-caret-position="326">
+          <caret line="0" column="286512" lean-forward="false" selection-start-line="0" selection-start-column="286512" selection-end-line="0" selection-end-column="286512" />
           <folding />
         </state>
       </provider>
