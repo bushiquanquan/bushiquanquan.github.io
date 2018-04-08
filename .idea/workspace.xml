@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="abe8e93b-5e45-45a6-9f84-036c07083eb5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pdf.js" afterPath="$PROJECT_DIR$/pdf.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/pdf.worker.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/pdf.js" afterPath="$PROJECT_DIR$/pdf.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,20 +22,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="sadnet.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sadnet.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4410">
-              <caret line="294" column="49" lean-forward="false" selection-start-line="294" selection-start-column="49" selection-end-line="294" selection-end-column="49" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#strong#0;n#p#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="echarts.custom.min.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/echarts.custom.min.js">
           <provider selected="true" editor-type-id="text-editor">
@@ -44,11 +32,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pdf.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pdf.js">
+      <file leaf-file-name="pdf.min.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pdf.min.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="8264" column="13" lean-forward="false" selection-start-line="8264" selection-start-column="13" selection-end-line="8264" selection-end-column="13" />
+            <state relative-caret-position="15">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pdf.worker.min.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pdf.worker.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44036">
+              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -139,6 +137,7 @@
       <find>pdfwork</find>
       <find>isWorkerDisabled =</find>
       <find>isWorkerDisabled</find>
+      <find>getDocument</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -161,6 +160,8 @@
         <option value="$PROJECT_DIR$/sadnet.html" />
         <option value="$PROJECT_DIR$/echarts.custom.min.js" />
         <option value="$PROJECT_DIR$/pdf.js" />
+        <option value="$PROJECT_DIR$/pdf.min.js" />
+        <option value="$PROJECT_DIR$/pdf.worker.min.js" />
       </list>
     </option>
   </component>
@@ -317,12 +318,12 @@
       <workItem from="1523014288266" duration="1210000" />
       <workItem from="1523016935073" duration="2994000" />
       <workItem from="1523156375015" duration="591000" />
-      <workItem from="1523159953780" duration="1587000" />
+      <workItem from="1523159953780" duration="3021000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23443000" />
+    <option name="totallyTimeSpent" value="24877000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="17" y="12" width="1405" height="877" extended-state="0" />
@@ -366,13 +367,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/build/dev-server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1440">
-          <caret line="99" column="18" lean-forward="true" selection-start-line="99" selection-start-column="18" selection-end-line="99" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.fecsrc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -638,9 +632,9 @@
         <state relative-caret-position="4410">
           <caret line="294" column="49" lean-forward="false" selection-start-line="294" selection-start-column="49" selection-end-line="294" selection-end-column="49" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#strong#0;n#p#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#span#0;n#strong#0;n#p#7;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -706,10 +700,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pdf.js">
+    <entry file="file://$PROJECT_DIR$/pdf.worker.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="8264" column="13" lean-forward="false" selection-start-line="8264" selection-start-column="13" selection-end-line="8264" selection-end-column="13" />
+        <state relative-caret-position="44036">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pdf.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>
