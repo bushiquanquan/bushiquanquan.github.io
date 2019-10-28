@@ -1,4 +1,4 @@
-importScripts("/open-static/mini-footprint-h5/js/precache-manifest.b2f5a539a34ace2982ba48ec690b993f.js?aa1");
+importScripts("https://bushiquanquan.github.io/open-static/mini-footprint-h5/js/precache-manifest.b2f5a539a34ace2982ba48ec690b993f.js");
 
 /**
 * 功能：service-worker.js
